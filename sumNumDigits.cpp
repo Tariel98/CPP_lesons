@@ -2,13 +2,13 @@
 using namespace std;
 
 int main(){
-    int number, sum=0, dig;
+    int number, sum=0, digit;
     cout << "Pleas enter number: ";
     cin >> number;
 
     while (number > 0){
-        dig = number % 10;
-        sum += dig;
+        digit = number % 10;
+        sum += digit;
         number /= 10;
     }
 

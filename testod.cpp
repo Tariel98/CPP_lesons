@@ -1,15 +1,10 @@
 #include <iostream>
 using namespace std;
 
+int main (){
 
+ float number;
+  cin >> number;
+  cout << number % 5 << endl;
 
-int main(){
-
-int num;
-cin >> num ;
-
-cout << num % 10 << endl;
-cout << num / 10 << endl;
-  
-    
 }

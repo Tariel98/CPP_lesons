@@ -19,7 +19,7 @@ int main(){
         n = num % 10;
         decimal += n * pow(2, rank);
         num /= 10;
-        rank -= 1;
+        rank--;
     }
      cout << "The decimal number is " << decimal << endl;
 }

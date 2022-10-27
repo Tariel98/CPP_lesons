@@ -4,7 +4,7 @@
 using namespace std;
 
 
-
+/*
 int main() {
     string number;
     cout << "Pleas enter the number: ";
@@ -14,8 +14,9 @@ int main() {
     cout << "The reversed number will be " << numberInt << "." << endl;
     
 }
+*/
 
-/* #include <bits/stdc++.h>
+ #include <bits/stdc++.h>
 using namespace std;
  
 
@@ -31,4 +32,4 @@ int main (){
     cin >> number;
 
     reverse(number);
-}*/
+}

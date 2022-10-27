@@ -9,7 +9,7 @@ int main(){
     cin >> points;
     cout << "Attention, the evaluation is done in the following order: " << endl;
     cout << " 0-59 --> F,  60-69 --> D, 70-79 --> C, 80-89 --> B, 90-100 --> A" << endl;
-
+    
     if ( 0 <= points && points <= 59 ){
         cout << "Your grade is F." << endl;
     }else if ( 60 <= points && points <= 69 ){

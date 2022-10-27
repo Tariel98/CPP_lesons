@@ -1,7 +1,7 @@
 #include <iostream>
 
 int main() {
-    int randomNumber = std::rand() / ((RAND_MAX + 1u)/100);
+    int randomNumber = std::rand()/((RAND_MAX + 1u)/100);
     int repeat = 0;
     int userNumber;
 

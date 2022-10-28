@@ -15,18 +15,15 @@ void revereseArray(int numbers[], int start, int end)
 
 int main(){
 
-	int n, a, b, c, d;
+	int n, a, b, c, d, j=1;
     cin >> n >> a >> b >> c >>d;
     a--; b--; c--; d--;
     int numbers[n];
 
-    for (int i = 1; i < (n + 1); ++i){
-        for(int j; j < n; ++j){
-            numbers[j] = i;
+    for (int i = 0; i < n; ++i){
+            numbers[i] = j;
             j++;
-            break;
         }
-    }
     
 	cout << "The array is: ";
 

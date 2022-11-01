@@ -3,7 +3,7 @@
 
 int main() {
 	int numbers[] = {1, 2, 5, 6, 3, 1, 9, 6, 5, 7, 9, 8};
-	int length = sizeof(numbers)  / sizeof(int);
+	int length = sizeof(numbers)  / sizeof(numbers[0]);
 	int newNumbers[length];
 
 	for (int i = 0; i < length; ++i){
@@ -11,18 +11,18 @@ int main() {
 			newNumbers[i] = numbers[i];
 	}
 
-	int lengthNew = sizeof(newNumbers) / sizeof(newNumbers);
-	std::cout << "The old list is";
+	int lengthNew = sizeof(newNumbers) / sizeof(newNumbers[0]);
+	std::cout << "The old list is: ";
 	for (int i = 0; i < length; ++i){
-		std::cout << numbers[i];
+		std::cout << numbers[i] << " ";
 	}
 	std::cout << std::endl;
 
-	std::cout << "The new list is ";
+	std::cout << "The new list is: ";
 
 	for (int i = 0; i < lengthNew; ++i){
-		std::cout << newNumbers[i] ;
+		std::cout << newNumbers[i] << " ";
 	}
 	
-
+    std::cout << std::endl;
 }

@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     
-  int digits[10] = {0,0,0,0,0,0,0,0,0,0};
+  int digits[10] = {};
   int number;
   cout << "Please enter a number between 1 and 10։ \nEnter -1 to see results։ ";
 
